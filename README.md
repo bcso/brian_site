@@ -1,7 +1,7 @@
 thisSite
 ========
 
-###... is Built with Aptana 3.
+###... is Built with Sublime, hosted on Microsoft Azure using the hMTL5 Boilerplate.
 
 This site will be about (in priority...):
 - Portfolio x Resume x Buttery design
