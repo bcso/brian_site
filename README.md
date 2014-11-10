@@ -21,6 +21,10 @@ This site will be about (in priority...):
         - Search bar...
         - Parralax
         - Interactive nav bar
+- ####Used Res
+    - Navbar
+        - [Navbar Change color](http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3)
+        - Cyan Color pallete (for now)
 
 ##TOOLS and wingdings:
 
