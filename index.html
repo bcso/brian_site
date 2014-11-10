@@ -16,28 +16,42 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--Local CSS Sheets-->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/briancss.css" rel="stylesheet">
+        
+        <!--Local Material CSS Sheets-->
+        <link href="bootstrap-material-design/dist/css/material.css" rel="stylesheet">
+        <link href="bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+        <link href="bootstrap-material-design/dist/css/material-wfont.css" rel="stylesheet">
+        
+        <!--Local Material JS files-->
+        <link href="bootstrap-material-design/dist/js/material.js" rel="stylesheet">
+        <link href="bootstrap-material-design/dist/js/ripples.js" rel="stylesheet">
+        
+        <!--Cloud JS files-->
         <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js" rel="stylesheet">
+        
+        <!--Cloud CSS Sheets-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
 	</head>
 
-	<body class="backdrop">
+	<body>
 		<!-- Navbar --->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-material-white navbar-fixed-top" id="defaultnav">
             <div class="container">
+                <a class="navbar-brand" href="#about">Brian So</a>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            <div class="navbar-brand">
-                <a href="#home">B</a>
+                    <a class="btn btn-material-red">About</a>
+                    <a class="btn btn-material-orange">Resume</a>
+                    <a class="btn btn-material-cyan">Contact</a>
+                </ul>                
             </div>
-                
-            </div>
-            
         </nav>
+
         
 <!--
         <header>
