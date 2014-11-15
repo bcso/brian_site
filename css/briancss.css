@@ -10,6 +10,9 @@ $buttSize = 70px;
     border: #9E9E9E;
 }
 
+.fullBG{
+    background-size: 100%;
+}
 .navbar-button{
     opacity: 1.0;
 }
