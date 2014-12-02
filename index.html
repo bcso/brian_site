@@ -27,9 +27,6 @@
         <link href="bootstrap-material-design/dist/css/material-wfont.css" rel="stylesheet">
         
         <link href="js/jQueryScript.js" rel="stylesheet">
-        <!--Local Material JS files-->
-        <link href="bootstrap-material-design/dist/js/material.js" rel="stylesheet">
-        <link href="bootstrap-material-design/dist/js/ripples.js" rel="stylesheet">
         
         <!--Cloud JS files-->
         <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js" rel="stylesheet">
@@ -49,57 +46,47 @@
                 </div>
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav navbar-right navbar-button">
-                        <li><button class="btn btn-material-red" href="#home">Home</button></li>
-                        <li><button class="btn btn-material-purple" href="#portfolio">Portfolio</button></li>
+                        <li class="page-scroll"><button class="btn btn-material-red" href = "#home">Home</button></li>
+                        <li><button class="btn btn-material-purple">Portfolio</button></li>
                         <li><button class="btn btn-material-orange" href="#resume">Resume</button></li>
                         <li><button class="btn btn-material-cyan" href="#contact">Contact</button></li>
                     </ul>                
                 </div>
             </div>
-        </nav>    
-<!--
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                    
-                    </div>
-                </div>
-            </div>        
-        </header>
--->
+        </nav>
         
         
         <section id="home">
-            <div class="homeDrop container-fluid text-center">
-                <div class="col-md-4">
-                    <i class="fa fa-wordpress fa-5x"></i>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-linux fa-5x"></i>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-facebook fa-5x"></i>
+            <div class="mainBody container-fluid text-center">
+                <div class="main-content">
+                    <div class="home-title">
+                        Me
+                    </div>
+                    <div class="home-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida ultricies justo, in tempor tortor volutpat quis. Donec aliquet fermentum dui, quis sagittis justo rhoncus quis. Integer eu enim eu elit porttitor iaculis. Maecenas a ultrices mauris. Pellentesque condimentum tristique purus a porta. Praesent fringilla magna ligula, congue luctus lorem ultrices non. Vestibulum felis felis, faucibus quis pulvinar vel, aliquet quis nibh. Maecenas fringilla dapibus laoreet. 
+                    </div>
                 </div>
             </div>
         </section>
-
+        
         <section id="portfolio">
-            <div class="homeDrop container-fluid text-center">
-                <div class="col-sm-4 portfolio-item">
-                    <i class="fa fa-wordpress fa-5x"></i>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <i class="fa fa-linux fa-5x"></i>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <i class="fa fa-facebook fa-5x"></i>
+            <div class="mainBody container-fluid text-center">
+                <div class="main-content">
+                    <div class="col-sm-4 portfolio-item">
+                        <i class="fa fa-wordpress fa-5x"></i>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <i class="fa fa-linux fa-5x"></i>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <i class="fa fa-facebook fa-5x"></i>
+                    </div>
                 </div>
             </div>            
         </section>        
         
         <section id="resume">
-            <div class="homeDrop container-fluid text-center">
+            <div class="mainBody container-fluid text-center">
                 <div class="col-md-4">
                     <i class="fa fa-wordpress fa-5x"></i>
                 </div>
@@ -113,7 +100,7 @@
         </section>
         
         <section id="contact">
-            <div class="homeDrop container-fluid text-center">
+            <div class="mainBody container-fluid text-center">
                 <div class="col-md-4 contact-item">
                     <i class="fa fa-wordpress fa-5x"></i>
                 </div>
@@ -125,51 +112,16 @@
                 </div>
             </div>            
         </section>
-        
-<!--
-        
-			<div class = "container" >
-				<h1 align = "center">Brian So</h1>
-                <p align = "center">Work, Play, Life</p>
-				<div class = "container">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation">
-                            <a href="indexwip.html" role="tab" data-toggle="tab">Home</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="resume.html" role="tab" data-toggle="tab">Resume</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="about.html" role="tab" data-toggle="tab">Info</a>
-                        </li>
-                    </ul>
-                    This is index.
-				</div>
-			
-                <div class = "container">
-                    <p>
-                        <a href="/">Home</a>
-                    </p>
-                    <p>
-                        <a href="../resources/bootstrap-3.1.1-dist">Contact</a>
-                    </p>
-                </div>
-
-                <div>
-
-                </div>
-
-                <footer>
-                    <p>
-                        &copy; Copyright  by Brian
-                    </p>
-                </footer>
-            </div>
--->
 		
 		   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->	    
         <script src="script.js"></script>
+        <script src="jQueryScript.js"></script>
+            
+            <!--Local Material JS files-->
+        <script src="bootstrap-material-design/dist/js/material.js"></script>
+        <script src="bootstrap-material-design/dist/js/ripples.js"></script>
 	</body>
+
 </html>

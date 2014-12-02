@@ -1,4 +1,7 @@
-$buttSize = 70px;
+@font-face {
+    font-family: Open Sans;
+    src: url('http://fonts.googleapis.com/css?family=Open+Sans');
+}
 
 .backdrop{
     background: #00838F;
@@ -13,19 +16,36 @@ $buttSize = 70px;
 .fullBG{
     background-size: 100%;
 }
+
 .navbar-button{
     opacity: 1.0;
 }
 
 #home{
-    margin: 7% 10% 100px;
+    margin: 7% 0% 100px;
     padding: 30px 0 30px;
     background-color: #f44336 ;
     opacity: 0.7;
 }
 
+.main-content{
+    margin: 50px 0px 50px;
+}
+
+#home .home-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    
+}
+
+#home .home-desc{
+    padding: 20px;
+    font-size: 18px;
+
+}
+
 #resume{
-    margin: 0 10% 100px;
+    margin: 0 0% 100px;
     padding: 30px 0 30px;
     background-color: #ff9800  ;
     opacity: 0.7;
@@ -33,7 +53,7 @@ $buttSize = 70px;
 
 #portfolio{
     background-color: #9c27b0 ;
-    margin: 0 10% 100px;
+    margin: 0 0% 100px;
     opacity: 0.7;
 }
 
@@ -43,10 +63,110 @@ $buttSize = 70px;
 
 #contact{
     background-color: #00bcd4 ;
-    margin: 0 10% 100px;
+    margin: 0 0% 100px;
     opacity: 0.7;
 }
 
 #contact .contact-item{
     padding: 30px 0 30px;
+}
+
+
+
+/*HR STYLES*/
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+ 
+/* Gradient transparent - color - transparent */
+		
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+ 
+/* Double-color dashed line */
+		
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+ 
+/* Single-direction drop shadow */
+		
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+ 
+/* Cloud */
+		
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+ 
+/* Inset, by Dan Eden */
+		
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+ 
+/* Flaired edges, by Tomas Theunissen */
+		
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;    
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 200px;
+}
+ 
+/* Glyph, by Harry Roberts */
+		
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
