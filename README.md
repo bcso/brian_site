@@ -39,3 +39,4 @@ This site will be about (in priority...):
 - [Slick (carousel thing)](https://github.com/kenwheeler/slick)
 - [MFG Labs iconset](https://github.com/MfgLabs/mfglabs-iconset)
 - [Angular.js (just cause? need to find use for this)](https://github.com/angular/angular.js)
+- [Brown Font](http://fontsinuse.com/typefaces/7385/ll-brown)
