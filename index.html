@@ -8,30 +8,37 @@
         <link href="css/briancss.css" rel="stylesheet">
         
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
     </head>
 
     <body background="html5up-overflow/images/bg.jpg" class="fullBG">
         <div class="bs-component">
-            <div class="navbar navbar-material-grey navbar-fixed-top">
+            <div class="navbar navbar-material-grey navbar-fixed-top" id = "mainNav">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="javascript:void(0)">Brian So</a>
+                    <a class="navbar-brand">Brian So</a>
                 </div>
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="javascript:void(0)">Home</a></li>
-                        <li><a href="javascript:void(0)">Portfolio</a></li>
-                        <li><a href="javascript:void(0)">Resume</a></li>
+                        <li class="page-scroll">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#resume">Resume</a>
+                        </li>
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:void(0)">Wordpress</a></li>
-                                <li><a href="javascript:void(0)">LinkedIn</a></li>
-                                <li><a href="javascript:void(0)">Facebook</a></li>
+                                <li><a href="http://brianso.azurewebsites.net/">Wordpress</a></li>
+                                <li><a href="https://www.linkedin.com/pub/brian-so/5b/938/674">LinkedIn</a></li>
+                                <li><a hre="https://github.com/bcso">Github</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">Dropdown header</li>
                                 <li><a href="javascript:void(0)">Separated link</a></li>
@@ -43,17 +50,7 @@
                         <input type="text" class="form-control col-lg-8" placeholder="Search">
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="javascript:void(0)">Link</a></li>
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="javascript:void(0)">Action</a></li>
-                                <li><a href="javascript:void(0)">Another action</a></li>
-                                <li><a href="javascript:void(0)">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="javascript:void(0)">Separated link</a></li>
-                            </ul>
-                        </li>
+<!--                        Fill me in-->
                     </ul>
                 </div>
             </div>
@@ -119,13 +116,11 @@
         
 <!--        scripts and stuff -->
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/script.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="bootstrap-material-design/dist/js/ripples.min.js"></script>
         <script src="bootstrap-material-design/dist/js/material.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $.material.init();
-            });
-        </script>
+
     </body>
 </html>
