@@ -3,6 +3,10 @@
     src: url('http://fonts.googleapis.com/css?family=Open+Sans');
 }
 
+body{
+    overflow-y: hidden;
+}
+
 .backdrop{
     background: #00838F;
     text-transform: uppercase;
@@ -35,13 +39,11 @@
 #home .home-title{
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    
 }
 
 #home .home-desc{
     padding: 20px;
     font-size: 18px;
-
 }
 
 #resume{
@@ -57,8 +59,17 @@
     opacity: 0.7;
 }
 
+#portfolio .portfolio-main{
+    padding: 20px 0 20px;
+}
+
 #portfolio .portfolio-item{
-    padding: 30px 0 30px;
+    padding: inherit;
+}
+
+#portfolio .portfolio-item .desc{
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #contact{
@@ -71,7 +82,9 @@
     padding: 30px 0 30px;
 }
 
-
+.project-modal-desc{
+    align-content: center;
+}
 
 /*HR STYLES*/
 
