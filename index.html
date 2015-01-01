@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
         <link href="bootstrap-material-design/dist/css/material-wfont.min.css" rel="stylesheet">
@@ -30,8 +32,8 @@
                         <li class="page-scroll">
                             <a href="#portfolio">Portfolio</a>
                         </li>
-                        <li class="page-scroll">
-                            <a href="#resume">Resume</a>
+                        <li>
+                            <a href="/res/Resume.pdf">Resume</a>
                         </li>
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
@@ -42,9 +44,6 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="navbar-form navbar-left">
-                        <input type="text" class="form-control col-lg-8" placeholder="Search">
-                    </form>
                     <ul class="nav navbar-nav navbar-right">
 <!--                        Fill me in-->
                     </ul>
@@ -63,6 +62,8 @@
                     </div>
                     <div class="home-desc">
                     <p>I am a curious and inquisitive student currently dwelling within the hallowed halls of the University of Waterloo. Trying my best at something called studying at a thing called Systems Design Engineering.</p>
+                        
+                    
                     </div>
                 </div>
             </div>
@@ -101,34 +102,42 @@
                         </a>
                     </div>
             </div>            
-        </section>        
-        
-        <section id="resume">
-            <div class="mainBody container-fluid text-center">
-                <div class="col-md-4">
-                    <i class="fa fa-wordpress fa-5x"></i>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-linux fa-5x"></i>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-facebook fa-5x"></i>
-                </div>
-            </div>            
         </section>
         
         <section id="contact">
-            <div class="mainBody container-fluid text-center">
+            <div class="mainBody container-fluid text-center contact-main">
                 <div class="col-md-4 contact-item">
-                    <i class="fa fa-wordpress fa-5x"></i>
+                    <a class="btn btn-default" href="http://brianso.azurewebsites.net/" >
+                        <i class="fa fa-wordpress fa-5x" ></i>
+                    </a>
                 </div>
                 <div class="col-md-4 contact-item">
-                    <i class="fa fa-linux fa-5x"></i>
+                    <a class="btn btn-default" href="https://www.linkedin.com/pub/brian-so/5b/938/674">
+                        <i class="fa fa-linkedin fa-5x"></i>
+                    </a>
                 </div>
                 <div class="col-md-4 contact-item">
-                    <i class="fa fa-facebook fa-5x"></i>
+                    <a class="btn btn-default" href="https://github.com/bcso">
+                        <i class="fa fa-github fa-5x"></i>
+                    </a>
                 </div>
-            </div>            
+                
+                <div class="col-md-16 contact-item contact-text">
+                    <div class="contact-text-info">
+                        bcso@uwaterloo.ca
+                    </div>
+                    
+                    <div class="contact-text-info">
+                        University of Waterloo
+                    </div>
+                    
+                    <div class="contact-text-info">
+                        200 University Avenue West, Waterloo, ON N2L 3G1
+                    </div>
+                    
+                </div>
+                </div>
+                            
         </section>
         
 <!--        Modals-->

@@ -89,8 +89,21 @@ body{
     opacity: 0.7;
 }
 
+#contact .contact-main{
+    padding: 15px 0 15px;
+}
 #contact .contact-item{
-    padding: 30px 0 30px;
+    padding: inherit;
+}
+
+#contact .contact-text{
+    padding: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#contact .contact-text-info{
+    padding: 5px;
 }
 
 .project-modal-desc{
