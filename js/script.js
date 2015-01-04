@@ -5,9 +5,15 @@ $(document).ready(function(){
     
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
+        if ($anchor.attr('href') == "#home"){
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 50
+                scrollTop: $('html').offset().top
+            }, 1500, 'easeInOutExpo');                              
+        } else {
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top -47
             }, 1500, 'easeInOutExpo');
+        }
         event.preventDefault();
     });
     
